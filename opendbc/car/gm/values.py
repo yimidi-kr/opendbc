@@ -182,7 +182,8 @@ class CAR(Platforms):
   )
   CADILLAC_CT6_2019 = GMPlatformConfig(
     [GMCarDocs("Cadillac CT6 2019", "Driver Assist Package")],
-    CarSpecs(mass=2358, wheelbase=3.11, steerRatio=17.7, centerToFrontRatio=0.4),
+    CarSpecs(mass=2100, wheelbase=3.11, steerRatio=16.3, centerToFrontRatio=0.48),
+    # CarSpecs(mass=2358, wheelbase=3.11, steerRatio=17.7, centerToFrontRatio=0.4),
   )
   CHEVROLET_VOLT_2019 = GMSDGMPlatformConfig(
     [GMCarDocs("Chevrolet Volt 2019", "Adaptive Cruise Control (ACC) & LKAS")],
